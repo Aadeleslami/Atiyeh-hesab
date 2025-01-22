@@ -1,13 +1,18 @@
+// * pages
+import BenefitsSection from "@/components/pages/homePage/BenefitsSection";
+import FeaturesSection from "@/components/pages/homePage/FeaturesSection";
+import HeaderSection from "@/components/pages/homePage/HeaderSection";
+import QuestionsSection from "@/components/pages/homePage/QuestionsSection";
+import StatisticsSection from "@/components/pages/homePage/StatisticsSection";
+
 export default function Home() {
   return (
-    <div className="container mx-auto">
-      <button className="btn btn-active">Default</button>
-      <button className="btn btn-active btn-neutral">Neutral</button>
-      <button className="btn btn-active btn-primary">Primary</button>
-      <button className="btn btn-active btn-secondary">Secondary</button>
-      <button className="btn btn-active btn-accent">Accent</button>
-      <button className="btn btn-active btn-ghost">Ghost</button>
-      <button className="btn btn-active btn-link">Link</button>
+    <div className="space-y-8">
+      <HeaderSection />
+      <FeaturesSection />
+      <BenefitsSection />
+      <StatisticsSection />
+      <QuestionsSection />
     </div>
   );
 }

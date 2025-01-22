@@ -10,16 +10,15 @@ export default {
   ],
   theme: {
     extend: {
-      
       colors: {
-        
+        blue_default: "#3532B2",
       },
       fontFamily: {
-        sans: ['var(--font-morabba)']
+        sans: ["var(--font-morabba)"],
       },
       margin: {
-        '5px': '5px',
-      }
+        "5px": "5px",
+      },
     },
   },
   plugins: [require("daisyui")],

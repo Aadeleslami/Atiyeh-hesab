@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 
-import "./globals.css";
-import { morabba } from "./utils/local_font";
+import "@/app/globals.css";
+import { morabba } from "@/utils/local_font";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,10 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${morabba.variable} ${morabba.variable} antialiased`}
-      >
+      <body className={`${morabba.variable} max-w-7xl m-auto`}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
