@@ -31,7 +31,7 @@ function SwiperUserComment() {
                   <div className="max-w-sm mx-auto bg-white rounded-lg shadow-lg p-6 text-right relative">
                     <div className="flex justify-end mb-4">
                       <Image
-                        src="/images/Isolation_Mode.png" // مسیر تصویر پیش‌فرض را به دلخواه تغییر دهید
+                        src="/images/Isolation_Mode.png" 
                         alt={`${user.name}`}
                         className="w-20 h-20 rounded-full border absolute -top-10"
                       />
