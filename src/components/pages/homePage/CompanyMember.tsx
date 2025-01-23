@@ -1,4 +1,5 @@
 import { MemberListType, MemberType } from "@/Constants/listCompanyMember";
+import Image from "next/image";
 export default function CompanyMember() {
   return (
     <>
@@ -18,7 +19,7 @@ export default function CompanyMember() {
               className="max-w-sm mx-4 my-8 bg-slate-200 rounded-lg shadow-lg p-6  relative  "
             >
               <div className="flex justify-center mt-4">
-                <img
+                <Image
                   src="/images/Isolation_Mode.png" // مسیر تصویر پیش‌فرض را به دلخواه تغییر دهید
                   alt={`${member.name} ${member.lastName}`}
                   className="w-20 h-20 rounded-full border absolute -top-10"

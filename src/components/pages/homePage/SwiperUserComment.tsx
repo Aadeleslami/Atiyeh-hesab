@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cards";
-import { MemberListType, MemberType } from "@/Constants/listCompanyMember";
 import { EffectCards } from "swiper/modules";
 import { UserCommentType, UserType } from "@/Constants/listUserComment";
 
@@ -31,7 +30,7 @@ function SwiperUserComment() {
                 <SwiperSlide key={user.id}>
                   <div className="max-w-sm mx-auto bg-white rounded-lg shadow-lg p-6 text-right relative">
                     <div className="flex justify-end mb-4">
-                      <img
+                      <Image
                         src="/images/Isolation_Mode.png" // مسیر تصویر پیش‌فرض را به دلخواه تغییر دهید
                         alt={`${user.name}`}
                         className="w-20 h-20 rounded-full border absolute -top-10"
