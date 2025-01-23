@@ -35,7 +35,7 @@ function Footer() {
             <div className="text-sm flex font-semibold lg:col-span-3">
               <IconMapPinFilled color="#6059F7" />
               <span className="px-2">
-                ، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده،
+              استان تهران، شهرستان تهران، بخش مرکزی، شهر تهران
               </span>
             </div>
             <div className="flex ">

@@ -5,7 +5,7 @@ function QuestionsSection() {
     <section className="p-4 space-y-4">
       <h1 className="font-extrabold text-2xl">پرسش های متداول</h1>
 
-      <div className="collapse collapse-arrow bg-base-200">
+      <div className="collapse collapse-arrow bg-slate-200">
         <input type="radio" name="my-accordion-2" defaultChecked />
         <div className="collapse-title text-xl font-medium">
           امکان ویرایش عملکرد وجود دارد؟
@@ -20,7 +20,7 @@ function QuestionsSection() {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200">
+      <div className="collapse collapse-arrow bg-slate-200">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium">
           سامانه چگونه عمل میکند ؟
@@ -35,7 +35,7 @@ function QuestionsSection() {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200">
+      <div className="collapse collapse-arrow bg-slate-200">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium">
           ضامن باید به چه صورت باشد؟
@@ -50,7 +50,7 @@ function QuestionsSection() {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200">
+      <div className="collapse collapse-arrow bg-slate-200">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium">
           چه افرادی باید از سامانه استفاده کنند؟
