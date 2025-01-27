@@ -6,7 +6,7 @@ function Header() {
     <div className="p-4 grid grid-cols-2 bg-zinc-100 lg:bg-white">
       <div className="flex justify-start items-center gap-x-2">
         <IconMenu3 className="flex lg:hidden" />
-        <p className="text-xl font-bold">کاوشگران کاردان آتی نگرد</p>
+        <p className="text-xl font-bold">آتیه حساب</p>
       </div>
 
       <ul className="hidden  lg:flex gap-x-4 ">
